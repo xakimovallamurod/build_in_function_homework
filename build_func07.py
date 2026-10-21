@@ -1,12 +1,11 @@
-def main(x, y):
-    """Butun sonli o'zgaruvchilar 'x' va 'y' berilgan. README.md faylida berilgan ifodaning qiymatini qaytaring.
-    https://github.com/codeschool43/Build_in_function_homework#build_func07
-
-    Argümentlar:
-        x (int): butun son
-        y (int): butun son
-        
-    Qaytish:
-        int: ifodaning qiymati
+def main(a, b, c):
+    """
+    Allamurod uchta do'kondagi telefon narxini solishtirdi. Eng arzon narxni qaytaring. min() funksiyasini ishlating.
+    Argumentlar:
+        a(int): 1-do'kon narxi
+        b(int): 2-do'kon narxi
+        c(int): 3-do'kon narxi
+    Qaytaradi:
+        int: eng arzon narx
     """
     return

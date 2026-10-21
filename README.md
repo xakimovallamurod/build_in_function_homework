@@ -1,123 +1,278 @@
-# Build in Function
+# Ichki (built-in) funksiyalar
 
 ## build_func01
 
-Beriilgan butun sonli o'zgaruvchi 'number' ning mutlaq qiymatini qaytaring.
+Allamurod ikki kun orasidagi harorat farqini hisobladi, natija manfiy chiqishi mumkin. Farqning mutlaq qiymatini qaytaring. `abs()` funksiyasini ishlating.
 
-**Input**:*number*.\
-**Output**: *answer*.
+**Kiritish:** *farq*.  
+**Natija:** *mutlaq qiymat*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|-8             |8                |
+| **Kiritish** | **Natija** |
+|---|---|
+| -8 | 8 |
+| 5 | 5 |
+
+---
 
 ## build_func02
 
-Quyidagi ifodaning qiymatini qaytaring:  <img src="https://latex.codecogs.com/gif.latex?\3(\frac{7}{5}-\frac{9}{4})">.
+Allamurodning bo'yi va akasining bo'yi (sm) berilgan. Ular orasidagi farqni musbat son ko'rinishida qaytaring. `abs()` funksiyasini ishlating.
 
-**Input**:*expression*.\
-**Output**: *answer*.
+**Kiritish:** *boy1, boy2*.  
+**Natija:** *farq*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|               |-2.55            |
+| **Kiritish** | **Natija** |
+|---|---|
+| 178 185 | 7 |
+| 178 170 | 8 |
+
+---
 
 ## build_func03
 
-Beriilgan butun sonli o'zgaruvchi 'n' ning qiymatini quyidagi ifodaga asoslanib hisoblang:  <img src="https://latex.codecogs.com/gif.latex?\3(n+1)^{2}">.\
-`pow()` funksiyasini ishlating.
+Allamurodning xonasi kvadrat shaklida, tomoni berilgan. Xona maydonini qaytaring. `pow()` funksiyasini ishlating.
 
-**Input**:*n*.\
-**Output**: *answer*.
+**Kiritish:** *tomon*.  
+**Natija:** *maydon*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|3.5           |60.75            |
+| **Kiritish** | **Natija** |
+|---|---|
+| 4 | 16 |
+| 5 | 25 |
+
+---
 
 ## build_func04
 
-Beriilgan butun sonli o'zgaruvchi 'n' ning qiymatini quyidagi ifodaga asoslanib hisoblang: <img src="https://latex.codecogs.com/gif.latex?\(\frac{2+n}{3})^{2}">.\
-`pow()` funksiyasini ishlating.
+n berilgan. 2 ning n-darajasini qaytaring (masalan, 1 KB = 2¹⁰ bayt). `pow()` funksiyasini ishlating.
 
-**Input**:*n*.\
-**Output**: *answer*.
+**Kiritish:** *n*.  
+**Natija:** *natija*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|4              |4.0              |
+| **Kiritish** | **Natija** |
+|---|---|
+| 10 | 1024 |
+| 3 | 8 |
+
+---
 
 ## build_func05
 
-Butun sonli o'zgaruvchilar 'n' va 'x' berilgan. Quyidagi ifodaning qiymatini hisoblang: <img src="https://latex.codecogs.com/gif.latex?\(x^{n}+n^{x})">.\
-`pow()` funksiyasini ishlating.
+Allamurodning kursdagi o'rtacha bahosi berilgan. Uni 1 xona aniqlikda yaxlitlab qaytaring. `round()` funksiyasini ishlating.
 
-**Input**:*n, x*.\
-**Output**: *answer*.
+**Kiritish:** *baho*.  
+**Natija:** *natija*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|3 6            |945              |
+| **Kiritish** | **Natija** |
+|---|---|
+| 4.567 | 4.6 |
+| 3.71 | 3.7 |
+
+---
 
 ## build_func06
 
-Yuqori o'nlik sonli o'zgaruvchi 'a' berilgan. Natijani 2 onlik raqamgacha yaxlitlang.\
-`round()` funksiyasini ishlating.
+Allamurodning uch oylik daromadi berilgan. Eng katta daromadni qaytaring. `max()` funksiyasini ishlating.
 
-**Input**:*a*.\
-**Output**: *answer*.
+**Kiritish:** *a, b, c*.  
+**Natija:** *eng kattasi*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|3.456          |3.46             |
-|7.5            |7.5             |
+| **Kiritish** | **Natija** |
+|---|---|
+| 6500000 7200000 6800000 | 7200000 |
+
+---
 
 ## build_func07
 
-Butun sonli o'zgaruvchilar 'x' va 'y' berilgan. Quyidagi ifodaning qiymatini hisoblang: <img src="https://latex.codecogs.com/gif.latex?\(x^{2}+6x^{3}+3xy)">.\
-`pow()` funksiyasini ishlating.
+Allamurod uchta do'kondagi telefon narxini solishtirdi. Eng arzon narxni qaytaring. `min()` funksiyasini ishlating.
 
-**Input**:*x, y*.\
-**Output**: *answer*.
+**Kiritish:** *a, b, c*.  
+**Natija:** *eng kichigi*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|5 2            |805              |
+| **Kiritish** | **Natija** |
+|---|---|
+| 4200000 3950000 4100000 | 3950000 |
+
+---
 
 ## build_func08
 
-Butun sonli o'zgaruvchilar 'x' va 'y' berilgan. Quyidagi ifodaning qiymatini hisoblang: <img src="https://latex.codecogs.com/gif.latex?\5x^{2}y^{3}+xy^{2}">.\
-`pow()` funksiyasini ishlating.
+Allamurodning mashinasi probegi kasr son ko'rinishida berilgan. Uning butun qismini qaytaring. `int()` funksiyasini ishlating.
 
-**Input**:*x, y*.\
-**Output**: *answer*.
+**Kiritish:** *probeg*.  
+**Natija:** *butun qism*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|7 1            |252              |
+| **Kiritish** | **Natija** |
+|---|---|
+| 125738.6 | 125738 |
+| 99.99 | 99 |
+
+---
 
 ## build_func09
 
-Butun sonli o'zgaruvchilar 'x' va 'y' berilgan. Quyidagi ifodaning qiymatini hisoblang: <img src="https://latex.codecogs.com/gif.latex?\2(y^{3}+x^{2}y)">.\
-`pow()` funksiyasini ishlating.
+Butun son berilgan, u manfiy ham bo'lishi mumkin. Sonning oxirgi raqamini qaytaring. `abs()` funksiyasini ishlating.
 
-**Input**:*x, y*.\
-**Output**: *answer*.
+**Kiritish:** *n*.  
+**Natija:** *oxirgi raqam*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|2 4            |160              |
+| **Kiritish** | **Natija** |
+|---|---|
+| -347 | 7 |
+| 2026 | 6 |
+
+---
 
 ## build_func10
 
-Butun sonli o'zgaruvchilar 'x' va 'y' berilgan. Quyidagi ifodaning qiymatini hisoblang: <img src="https://latex.codecogs.com/gif.latex?\3y^{\frac{1}{2}}+x^{\frac{2}{3}}">.\
-Natijani 2 onlik raqamgacha yaxlitlang.\
-`pow()` funksiyasini ishlating.\
-`round()` funksiyasini ishlating.
+Allamurodda kvadrat shaklidagi yer bor, uning maydoni berilgan. Yerning tomonini qaytaring (maydonning kvadrat ildizi). `pow()` funksiyasini ishlating.
 
-**Input**:*x, y*.\
-**Output**: *answer*.
+**Kiritish:** *maydon*.  
+**Natija:** *tomon*.  
 
-|   **Input**   |   **Output**    |
-|---------------|-----------------|
-|8 4            |10.0             |
+| **Kiritish** | **Natija** |
+|---|---|
+| 144 | 12.0 |
+| 400 | 20.0 |
+
+---
+
+## build_func11
+
+Allamurodning vazni (kg) va bo'yi (m) berilgan. Tana massasi indeksini (BMI = vazn / bo'y²) hisoblang va 2 xona aniqlikda yaxlitlab qaytaring. `pow()` va `round()` funksiyalarini ishlating.
+
+**Kiritish:** *vazn, boy*.  
+**Natija:** *BMI*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 74 1.78 | 23.36 |
+| 80 1.78 | 25.25 |
+
+---
+
+## build_func12
+
+Allamurodning uyi (x1, y1) va ofisi (x2, y2) nuqtalarda joylashgan (km). Ular orasidagi to'g'ri chiziqli masofani hisoblang va 2 xona aniqlikda yaxlitlab qaytaring. `pow()` va `round()` funksiyalarini ishlating.
+
+**Kiritish:** *x1, y1, x2, y2*.  
+**Natija:** *masofa*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 0 0 3 4 | 5.0 |
+| 0 0 2 3 | 3.61 |
+
+---
+
+## build_func13
+
+Allamurod bankka summa qo'ydi. Yillik foiz va yillar soni berilgan. Murakkab foiz bo'yicha yakuniy summani hisoblang: summa · (1 + foiz/100)ʸⁱˡ. Natijani 2 xona aniqlikda yaxlitlab qaytaring. `pow()` va `round()` funksiyalarini ishlating.
+
+**Kiritish:** *summa, foiz, yil*.  
+**Natija:** *yakuniy summa*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 5000000 20 3 | 8640000.0 |
+| 1000000 10 2 | 1210000.0 |
+
+---
+
+## build_func14
+
+Toshkentda uch kunlik havo harorati berilgan. Eng issiq va eng sovuq kun orasidagi farqni qaytaring. `max()` va `min()` funksiyalarini ishlating.
+
+**Kiritish:** *a, b, c*.  
+**Natija:** *farq*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 35 18 27 | 17 |
+| -5 3 0 | 8 |
+
+---
+
+## build_func15
+
+Allamurodning uchta fandan olgan bali berilgan. O'rtadagi balni (eng katta ham, eng kichik ham bo'lmagan) qaytaring. `max()` va `min()` funksiyalaridan foydalaning.
+
+**Kiritish:** *a, b, c*.  
+**Natija:** *o'rtadagi ball*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 87 92 78 | 87 |
+| 60 95 80 | 80 |
+
+---
+
+## build_func16
+
+Allamurodning uchta fandan olgan bali berilgan. O'rtacha balni hisoblang va 1 xona aniqlikda yaxlitlab qaytaring. `round()` funksiyasini ishlating.
+
+**Kiritish:** *a, b, c*.  
+**Natija:** *o'rtacha*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 87 92 78 | 85.7 |
+| 90 90 90 | 90.0 |
+
+---
+
+## build_func17
+
+Allamurod kvadrat shaklidagi bog'ini o'rab chiqmoqchi, bog' maydoni berilgan. Kerakli panjara uzunligini (perimetrni) hisoblang va 2 xona aniqlikda yaxlitlab qaytaring. `pow()` va `round()` funksiyalarini ishlating.
+
+**Kiritish:** *maydon*.  
+**Natija:** *perimetr*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 600 | 97.98 |
+| 100 | 40.0 |
+
+---
+
+## build_func18
+
+Allamurod narxi dollarda berilgan noutbukni sotib olmoqchi. Dollar kursi berilgan. Narxni so'mga aylantiring va minglargacha yaxlitlab qaytaring. `round()` funksiyasini manfiy aniqlik bilan ishlating.
+
+**Kiritish:** *narx, kurs*.  
+**Natija:** *so'mdagi narx*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 1199 12650 | 15167000 |
+| 799 12650 | 10107000 |
+
+---
+
+## build_func19
+
+Allamurod bog'ida uchburchak shaklidagi gulzor qildi, uning tomonlari a, b, c berilgan. Gulzor yuzasini Geron formulasi bo'yicha hisoblang: p = (a + b + c) / 2, S = √(p(p−a)(p−b)(p−c)). Natijani 2 xona aniqlikda yaxlitlab qaytaring. `pow()` va `round()` funksiyalarini ishlating.
+
+**Kiritish:** *a, b, c*.  
+**Natija:** *yuza*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 3 4 5 | 6.0 |
+| 5 6 7 | 14.7 |
+
+---
+
+## build_func20
+
+Allamurodning uch kunlik qadamlari soni berilgan. Eng ko'p va eng kam qadamlar farqi o'rtacha qadamlar sonining necha foizini tashkil etishini hisoblang va 1 xona aniqlikda yaxlitlab qaytaring. `max()`, `min()` va `round()` funksiyalarini ishlating.
+
+**Kiritish:** *a, b, c*.  
+**Natija:** *foiz*.  
+
+| **Kiritish** | **Natija** |
+|---|---|
+| 8000 12000 10000 | 40.0 |
+| 10000 10000 10000 | 0.0 |
 

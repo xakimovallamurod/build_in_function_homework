@@ -1,12 +1,9 @@
-def main(x, y):
-    """Butun sonli o'zgaruvchilar 'x' va 'y' berilgan. README.md faylida berilgan ifodaning qiymatini qaytaring.
-    https://github.com/codeschool43/Build_in_function_homework#build_func08
-
-    Argümentlar:
-        x (int): butun son
-        y (int): butun son
-        
-    Qaytish:
-        int: ifodaning qiymati
+def main(probeg):
+    """
+    Allamurodning mashinasi probegi kasr son ko'rinishida berilgan. Uning butun qismini qaytaring. int() funksiyasini ishlating.
+    Argumentlar:
+        probeg(float): probeg (km)
+    Qaytaradi:
+        int: butun qismi
     """
     return

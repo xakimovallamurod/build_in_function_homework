@@ -1,11 +1,9 @@
 def main(n):
-    """Beriilgan butun sonli o'zgaruvchi 'n' ning qiymatini README.md faylida berilgan ifodaga asoslanib qaytaring.
-    https://github.com/codeschool43/Build_in_function_homework#build_func04
-
-    Argümentlar:
-        n (int): butun son
-        
-    Qaytish:
-        float: ifodaning qiymati
+    """
+    n berilgan. 2 ning n-darajasini qaytaring (masalan, 1 KB = 2¹⁰ bayt). pow() funksiyasini ishlating.
+    Argumentlar:
+        n(int): daraja
+    Qaytaradi:
+        int: 2 ning n-darajasi
     """
     return

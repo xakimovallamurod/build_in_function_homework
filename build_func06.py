@@ -1,11 +1,11 @@
-def main(a):
-    """Yuqori o'nlik sonli o'zgaruvchi 'a' berilgan. Natijani README.md faylida berilganidek 2 onlik raqamgacha yaxlitlang.
-    https://github.com/codeschool43/Build_in_function_homework#build_func06
-
-    Argümentlar:
-        a (float): o'nlik son
-        
-    Qaytish:
-        float: 2 onlik raqamgacha yaxlitlangan natija
+def main(a, b, c):
+    """
+    Allamurodning uch oylik daromadi berilgan. Eng katta daromadni qaytaring. max() funksiyasini ishlating.
+    Argumentlar:
+        a(int): 1-oy daromadi
+        b(int): 2-oy daromadi
+        c(int): 3-oy daromadi
+    Qaytaradi:
+        int: eng katta daromad
     """
     return

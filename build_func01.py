@@ -1,10 +1,9 @@
-def main(number):
-    """Interger turdagi butun sonli o'zgaruvchi 'number' berilgan. 'number' ning mutlaq qiymatini qaytarish.
-
-    Argümentlar:
-        number (int): butun son
-
-    Qaytish:
-        int: 'number' ning mutlaq qiymati
+def main(farq):
+    """
+    Allamurod ikki kun orasidagi harorat farqini hisobladi, natija manfiy chiqishi mumkin. Farqning mutlaq qiymatini qaytaring. abs() funksiyasini ishlating.
+    Argumentlar:
+        farq(int): harorat farqi
+    Qaytaradi:
+        int: mutlaq qiymat
     """
     return
